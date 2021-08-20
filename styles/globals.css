@@ -1,0 +1,93 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*layout*/
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #e9d8f4;
+  width: 1200px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+li {
+  float: left;
+  padding-top: 25px;
+}
+
+li a {
+  display: inline;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+  background-color: #db7093;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #58257b;
+  color: white;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 40%;
+}
+
+.grid-content {
+  display: grid;
+  height: auto;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #eceff1;
+  padding: 10px;
+  width: 1200px;
+}
+
+.grid-content > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  margin: 10px 10px;
+}
+
+.item-content {
+  width: 1200px;
+}
+
+.item-content h1 {
+  text-align: center;
+}
+
+.contact {
+  padding-top: 30px;
+  font-size: 30px;
+  color: blue;
+}
