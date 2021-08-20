@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Layout from "../../components/Layout";
-import { getDocuments } from "../../servive/DocumentService";
+import { getDocuments } from "../../service/DocumentService";
 import styles from "../../styles/Home.module.css";
 
 const Home = ({ documents }) => {

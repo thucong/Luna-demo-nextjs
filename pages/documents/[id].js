@@ -1,5 +1,5 @@
 import Layout from "../../components/Layout";
-import { getDocumentById, getDocumentId } from "../../servive/DocumentService";
+import { getDocumentById, getDocumentId } from "../../service/DocumentService";
 
 import styles from "../../styles/Home.module.css";
 
